@@ -1,0 +1,25 @@
+# ========================================================
+# RIZZLERS Lobby Void Guard Configuration
+# ========================================================
+
+# The exact world name of the Lobby backend world.
+# Only players in this world are monitored and protected.
+# Do NOT enable this for Survival or other worlds.
+lobby-world: world
+
+# Y-level threshold. When a player falls below this Y coordinate,
+# they are automatically rescued and teleported.
+rescue-below-y: 69.0
+
+# Rescue behavior:
+# true  -> Teleport the player to the safe spawn coordinates defined below.
+# false -> Teleport the player back to their current X and Z at spawn.y.
+teleport-to-spawn: true
+
+# Safe platform spawn location. Ensure this location is a safe, solid platform.
+spawn:
+  x: 0.5
+  y: 72.0
+  z: 0.5
+  yaw: 0.0
+  pitch: 0.0

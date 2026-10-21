@@ -1,0 +1,6 @@
+name: RizzlersLobbyVoidGuard
+version: 1.0.0
+main: online.rizzlers.voidguard.RizzlersLobbyVoidGuard
+api-version: '26.3'
+author: RIZZLERS
+description: Rescues players falling below the Lobby safety threshold in the RIZZLERS network.
